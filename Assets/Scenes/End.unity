@@ -160,6 +160,7 @@ GameObject:
   m_Component:
   - component: {fileID: 271110090}
   - component: {fileID: 271110089}
+  - component: {fileID: 271110091}
   m_Layer: 0
   m_Name: Dolly Camera
   m_TagString: Untagged
@@ -214,7 +215,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 271110088}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.34339324, y: 0.3506337, z: -0.14001237, w: 0.85996145}
+  m_LocalRotation: {x: 0.37818828, y: 0.00570482, z: -0.0023306438, w: 0.92570823}
   m_LocalPosition: {x: 121.66185, y: 2.4996102, z: 117.24616}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -222,6 +223,27 @@ Transform:
   - {fileID: 1911368919}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &271110091
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 271110088}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4ef485d5e1abafc44972b4f4021f5b33, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &495123553
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,8 +660,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1234117663}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.34339324, y: 0.3506337, z: -0.14001237, w: 0.85996145}
-  m_LocalPosition: {x: 76.976845, y: 59.094, z: 75.745575}
+  m_LocalRotation: {x: 0.37818828, y: 0.00570482, z: -0.0023306438, w: 0.92570823}
+  m_LocalPosition: {x: 120.23492, y: 3.0599961, z: 117.16128}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -776,7 +798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Path: {fileID: 495123554}
-  m_PathPosition: 0
+  m_PathPosition: 4.36
   m_PositionUnits: 0
   m_PathOffset: {x: 0, y: 0, z: 0}
   m_XDamping: 0
